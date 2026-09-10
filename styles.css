@@ -16,3 +16,52 @@ header{min-height:104px;display:flex;align-items:center;padding:10px clamp(16px,
 footer{padding:34px clamp(20px,5vw,60px);border-top:1px solid #17445c;color:#9fb2bf;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center}footer a{color:#ccefff}.footer-motto{color:#0daef3;font-size:22px;font-style:italic;font-weight:800}footer small{grid-column:1/-1;border-top:1px solid #16394d;padding-top:15px}
 @media(max-width:800px){header{min-height:82px;padding:8px 15px}.brand{width:220px}.brand-main{font-size:27px}.brand-sub{font-size:14px}.brand-tag{font-size:6px}.menu{display:block}nav{display:none;position:absolute;top:82px;left:0;right:0;margin:0;padding:12px 18px 20px;background:#031523;flex-direction:column;align-items:stretch;gap:0}nav.open{display:flex}nav a{padding:14px 8px;border-bottom:1px solid #153b50}.navquote{text-align:center;margin-top:10px}.hero{display:flex;flex-direction:column}.copy{padding:38px 20px 20px}.copy h1{font-size:clamp(45px,13vw,64px)}.copy h2{font-size:23px}.copy>p:not(.overline){font-size:16px}.buttons{max-width:none}.ricky{height:500px;min-height:0}.ricky img{object-position:55% center}.trust{grid-template-columns:1fr 1fr}.trust div:nth-child(2){border-right:0}.trust div{border-bottom:1px solid #35505e}.homeintro,.inner{padding:48px 18px}.homeintro h2{font-size:34px}.service-grid{grid-template-columns:1fr 1fr;gap:10px}.service-card img{height:175px}.detail-head{grid-template-columns:1fr}.detail-cover{height:380px}.project-grid{grid-template-columns:1fr}.project-grid img{height:360px}.aboutgrid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr 1fr;gap:10px}.gallery-grid img{height:220px}footer{grid-template-columns:1fr}.footer-motto{font-size:18px}}
 @media(max-width:460px){.service-grid,.gallery-grid{grid-template-columns:1fr}.service-card img,.gallery-grid img{height:250px}.trust-icon{font-size:28px}.stars{font-size:23px}.homes{font-size:24px}.ricky{height:470px}}
+
+/* ===== V10 MOCKUP-MATCH OVERRIDES ===== */
+body{background:linear-gradient(180deg,#020b13 0%,#03111c 100%)}
+.topbar{height:32px;background:#031523;color:#d9eef9;display:flex;justify-content:flex-end;align-items:center;gap:28px;padding:0 4vw;font-size:11px}
+header{min-height:90px;background:linear-gradient(90deg,#031523,#041b2c);padding-top:4px;padding-bottom:4px}
+.brand{width:330px}.brand-main{font-size:38px;text-shadow:0 3px 0 #06111a}.brand-sub{font-size:19px}.brand-tag{font-size:8px}
+.mock-hero{max-width:none;width:100%;min-height:610px;border-bottom:1px solid #0daef3;position:relative}
+.mock-hero .copy{padding-left:max(44px,calc((100vw - 1440px)/2 + 45px));padding-top:50px;z-index:2}
+.mock-hero .copy h1{font-family:Arial Black,Arial,sans-serif;font-weight:1000;letter-spacing:-3px;font-size:clamp(58px,5.3vw,84px);line-height:.86;text-shadow:0 4px 12px #000}
+.mock-hero .copy h2{border:0;padding:0;margin:4px 0 8px;font-size:29px}
+.mock-hero .ricky{min-height:610px;position:relative}
+.mock-hero .ricky:after{content:"";position:absolute;inset:0;box-shadow:inset 85px 0 90px #020b13;pointer-events:none}
+.mock-hero .ricky img{object-position:center 38%}
+.trust{max-width:none;width:100%;background:#031523}.trust div{padding:18px 10px}.trust-icon{font-size:38px}.trust b{font-size:15px}.trust small{font-size:13px}
+.services-showcase{max-width:1400px;padding-top:30px;padding-bottom:34px}.services-showcase h2{font-size:34px;margin:6px 0}.services-showcase>p:not(.eyebrow){margin-top:0}
+.mock-services{grid-template-columns:repeat(6,1fr);gap:12px;margin-top:18px}.mock-services .service-card img{height:150px}.mock-services .service-card div{position:relative;padding:12px 13px 14px;min-height:94px}.mock-services .service-card h3{font-size:15px;font-style:italic}.mock-services .service-card p{font-size:12px}.mock-services .service-card span{position:absolute;right:10px;bottom:12px;width:31px;height:31px;border-radius:50%;display:grid;place-items:center;background:#0daef3;color:white}
+.about-home{max-width:1400px;margin:auto;border-top:1px solid #0daef3;padding:28px 22px 34px;display:grid;grid-template-columns:34% 38% 28%;gap:25px;align-items:stretch}.about-photo{border-radius:12px;overflow:hidden}.about-photo img{width:100%;height:100%;min-height:330px;object-fit:cover;object-position:60% center}.about-copy{padding:15px 0}.about-copy h2{font-size:37px;font-style:italic;margin:8px 0 15px}.about-copy p:not(.eyebrow){color:#cbd8e1;line-height:1.55}.standard-card{border:1px solid #0daef3;border-radius:14px;padding:20px;background:#041827}.standard-card ul{list-style:none;padding:0;margin:15px 0 0;display:grid;gap:18px}.standard-card li{font-weight:700;color:#e6f6ff}
+footer{background:#031523}
+@media(min-width:801px){nav{gap:30px}nav a{font-size:14px}}
+@media(max-width:800px){
+ .topbar{display:none}
+ header{min-height:78px}
+ .brand{width:230px}.brand-main{font-size:28px}.brand-sub{font-size:14px}
+ nav{top:78px}
+ .mock-hero{display:grid;grid-template-columns:1fr;min-height:0;background:radial-gradient(circle at 70% 70%,#074267,#020b13 68%)}
+ .mock-hero .copy{padding:34px 20px 18px;text-align:left}
+ .mock-hero .copy h1{font-size:clamp(43px,12.5vw,62px);letter-spacing:-2px;line-height:.88}
+ .mock-hero .copy h2{font-size:22px}
+ .mock-hero .ricky{height:430px;min-height:0}
+ .mock-hero .ricky:after{box-shadow:inset 0 55px 60px #020b13}
+ .mock-hero .ricky img{object-position:55% 38%}
+ .trust{grid-template-columns:1fr 1fr}
+ .mock-services{grid-template-columns:1fr 1fr}
+ .mock-services .service-card img{height:160px}
+ .about-home{grid-template-columns:1fr;padding:22px 18px}
+ .about-photo img{height:380px;min-height:0}
+}
+@media(max-width:460px){
+ .brand{width:205px}.brand-main{font-size:25px}.brand-sub{font-size:12px}.brand-tag{display:none}
+ .mock-hero .copy{padding-top:28px}
+ .mock-hero .copy h1{font-size:clamp(41px,12vw,54px)}
+ .mock-hero .ricky{height:390px}
+ .trust div{padding:16px 5px}.trust-icon{font-size:27px}.trust b{font-size:11px}.trust small{font-size:10px}
+ .stars{font-size:22px}.homes{font-size:22px}
+ .services-showcase{padding:30px 12px}.services-showcase h2{font-size:28px}
+ .mock-services{gap:9px}.mock-services .service-card img{height:130px}.mock-services .service-card div{min-height:90px;padding:10px}
+ .mock-services .service-card h3{font-size:13px}.mock-services .service-card p{font-size:11px}
+ .about-photo img{height:330px}
+}
