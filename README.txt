@@ -1,16 +1,17 @@
-RICKY’Z SIMPLE SOLUTION’Z — WEBSITE V3
+RICKY’Z SIMPLE SOLUTION’Z — V6
 
-Changes:
-- Dark navy/black header direction approved by Ricky.
-- Approved detailed Ricky’z logo used in header/footer.
-- “Quality Promise” simplified to “The Ricky’z Standard.”
-- Character image remains at repository root.
+This build intentionally uses the exact approved homepage mockup as the rendered visual, so the live site matches the approved design on mobile instead of reconstructing it from separate cropped blocks.
 
-UPLOAD/REPLACE THESE FILES IN THE ROOT OF THE GITHUB REPOSITORY:
-- index.html
-- styles.css
-- script.js
-- ricky-character.png
-- rickyz-logo.png
+Functional areas:
+- Home / Services / About / Gallery / Contact navigation
+- Get a Free Quote buttons call (904) 833-8205
+- Phone number is clickable
+- Email is clickable
 
-GitHub Pages remains set to: main / (root)
+UPLOAD TO THE ROOT OF THE GITHUB REPOSITORY:
+index.html
+styles.css
+approved-homepage-v6.png
+README.txt
+
+Old image files may remain in the repository; V6 does not display them.
