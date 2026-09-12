@@ -1,0 +1,1 @@
+V12 PREVIEW — premium black/gold/white layout; fixed Jacksonville background; character intentionally omitted until new approved likeness is created; gallery contains exactly 53 real project photos. Upload ZIP contents to GitHub repository root.

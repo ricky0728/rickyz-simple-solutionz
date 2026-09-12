@@ -1,18 +1,18 @@
 RICKY’Z SIMPLE SOLUTION’Z — WEBSITE V11
 
-V11 is intentionally based on the V10 design direction, not a redesign.
+V11 keeps the approved V10 visual direction and page structure.
 
-Changes included:
-- Reuses the V10 Ricky/Jacksonville hero artwork as the page background.
-- Character/background stays fixed while webpage sections scroll over it.
-- Much larger open gaps between sections so the Jacksonville skyline and hero remain visible.
-- Forearm tattoo area on the V10 hero artwork has been visually cleaned for V11.
-- No additional/second hero character is used on the homepage.
-- Removes the repeated lower homepage character image.
-- Keeps the V10 blue / black / white visual style and navigation structure.
-- Adds the newly supplied real project photos into the Gallery.
-- Adds a real-project preview on the homepage.
-- Keeps irrigation lower in the service mix instead of making it the main focus.
-- Responsive layout includes iPhone/Safari handling using a fixed pseudo-background rather than background-attachment:fixed.
+CHANGES INCLUDED:
+- Keeps the established blue/black/white design and homepage hierarchy.
+- Hero artwork is now treated as a background layer so page content moves over it and mobile/Safari cropping is less disruptive.
+- Removed the repeated lower homepage Ricky image.
+- Keeps fully functional separate Home, Services, About, Gallery and Contact pages.
+- Keeps Irrigation Support lower in the service order rather than making it the main business focus.
+- Expanded Gallery with the real project photos supplied.
+- Added an irrigation before/after feature using the matching backflow project photos.
+- Added real-work gallery preview to the homepage.
+- Keeps Get a Free Quote routing to the contact/quote form.
+- Added Safari/iPhone responsive safeguards.
 
-Upload every file/folder in this ZIP to the repository root.
+NOTE ON CHARACTER ART:
+The current website source image itself contains the old hair/tattoo artwork. V11 avoids inventing a replacement character and preserves the approved composition. The image asset must be replaced with the corrected approved character artwork to literally remove those details without changing Ricky’s likeness.
