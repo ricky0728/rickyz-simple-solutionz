@@ -65,3 +65,72 @@ footer{background:#031523}
  .mock-services .service-card h3{font-size:13px}.mock-services .service-card p{font-size:11px}
  .about-photo img{height:330px}
 }
+
+/* ===================== V11 =====================
+   Master visual direction: V10.
+   Exact V10 Ricky/Jacksonville art is reused as a fixed page background.
+   Content scrolls over it with intentional open windows.
+================================================= */
+html{scroll-behavior:smooth}
+body.v11-home,body.inner-page{background:#03111c;color:#fff;min-height:100vh;overflow-x:hidden}
+.site-background{
+  position:fixed; inset:0; z-index:-3;
+  background:
+    linear-gradient(rgba(1,12,22,.18),rgba(1,12,22,.30)),
+    url("ricky-jacksonville-v11.jpg") center 18%/cover no-repeat;
+  transform:translateZ(0);
+}
+.site-background:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,10,20,.20),rgba(0,10,20,.03) 52%,rgba(0,10,20,.10))}
+.v11-shell{width:min(1180px,calc(100% - 34px));margin:28px auto 0}
+.glass{
+  background:linear-gradient(135deg,rgba(2,20,34,.90),rgba(3,26,43,.76));
+  border:1px solid rgba(13,174,243,.55);
+  box-shadow:0 18px 50px rgba(0,0,0,.28);
+  backdrop-filter:blur(9px);-webkit-backdrop-filter:blur(9px);
+  border-radius:18px;
+}
+.hero-v11{min-height:580px;display:flex;align-items:center;padding:56px max(30px,5vw);position:relative;overflow:hidden}
+.hero-v11 .copy{max-width:610px}
+.hero-v11 h1{font-size:clamp(54px,6.5vw,88px);line-height:.86;margin:10px 0 18px}
+.hero-v11 h1 em{color:#0daef3;font-style:normal}
+.hero-v11 h2{font-size:clamp(28px,3vw,42px);margin:10px 0}
+.hero-v11 p{line-height:1.6}
+.background-window{background:transparent!important;border:0!important;box-shadow:none!important;pointer-events:none}
+.background-window.large{height:340px}
+.background-window.medium{height:220px}
+.trust{margin-top:18px}
+.services-showcase,.recent-work,.about-home-v11,.quote-band,.page-title,.gallery-wrap{padding:34px}
+.services-showcase h2,.recent-work h2,.about-home-v11 h2,.quote-band h2,.page-title h1{margin:0 0 10px}
+.section-head{display:flex;justify-content:space-between;gap:20px;align-items:end}
+.project-strip{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:24px}
+.project-strip a{display:block;border-radius:12px;overflow:hidden;border:1px solid rgba(13,174,243,.45)}
+.project-strip img{display:block;width:100%;height:170px;object-fit:cover}
+.value-row{display:flex;gap:22px;flex-wrap:wrap;margin:20px 0;font-weight:800;color:#bfeeff}
+.quote-band{display:flex;align-items:center;justify-content:space-between;gap:30px}
+.footer-v11{width:min(1180px,calc(100% - 34px));margin:26px auto;padding:30px;display:grid;grid-template-columns:1fr auto;gap:18px;text-align:left}
+.footer-v11 small{grid-column:1/-1}.footer-motto{font-size:26px;font-style:italic;color:#78d6ff}
+.gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+.gallery-card{margin:0;background:rgba(0,10,18,.65);border:1px solid rgba(13,174,243,.35);border-radius:12px;overflow:hidden}
+.gallery-card img{display:block;width:100%;height:230px;object-fit:cover}
+.gallery-card figcaption{padding:10px 12px;color:#cfefff;font-weight:700}
+.page-title{text-align:center;padding:50px 34px}.page-title p{max-width:760px;margin:0 auto;line-height:1.6}
+@media(max-width:900px){
+ .site-background{background-position:57% top;background-size:auto 100vh}
+ .background-window.large{height:250px}.background-window.medium{height:170px}
+ .hero-v11{min-height:520px;padding:40px 24px}
+ .project-strip{grid-template-columns:repeat(3,1fr)}
+ .quote-band{align-items:flex-start;flex-direction:column}
+}
+@media(max-width:640px){
+ .v11-shell{width:min(100% - 20px,1180px)}
+ .site-background{background-position:58% top;background-size:auto 100vh}
+ .hero-v11{min-height:610px;padding:34px 18px}
+ .hero-v11 .copy{max-width:96%}
+ .hero-v11 h1{font-size:clamp(44px,13vw,66px)}
+ .background-window.large{height:300px}.background-window.medium{height:200px}
+ .services-showcase,.recent-work,.about-home-v11,.quote-band,.page-title,.gallery-wrap{padding:22px 16px}
+ .project-strip{grid-template-columns:repeat(2,1fr)} .project-strip img{height:150px}
+ .section-head{align-items:flex-start;flex-direction:column}
+ .footer-v11{width:calc(100% - 20px);grid-template-columns:1fr;padding:22px}
+ .footer-v11 small{grid-column:auto}
+}
