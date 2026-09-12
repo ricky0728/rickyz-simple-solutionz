@@ -1,0 +1,23 @@
+.gallery-page img {
+  background-image: url("gallery-sprite.webp");
+  background-repeat: no-repeat;
+  background-size: 500% 1100%;
+}
+
+.gallery-page figure:nth-child(5n + 1) img { background-position-x: 0%; }
+.gallery-page figure:nth-child(5n + 2) img { background-position-x: 25%; }
+.gallery-page figure:nth-child(5n + 3) img { background-position-x: 50%; }
+.gallery-page figure:nth-child(5n + 4) img { background-position-x: 75%; }
+.gallery-page figure:nth-child(5n + 5) img { background-position-x: 100%; }
+
+.gallery-page figure:nth-child(-n + 5) img { background-position-y: 0%; }
+.gallery-page figure:nth-child(n + 6):nth-child(-n + 10) img { background-position-y: 10%; }
+.gallery-page figure:nth-child(n + 11):nth-child(-n + 15) img { background-position-y: 20%; }
+.gallery-page figure:nth-child(n + 16):nth-child(-n + 20) img { background-position-y: 30%; }
+.gallery-page figure:nth-child(n + 21):nth-child(-n + 25) img { background-position-y: 40%; }
+.gallery-page figure:nth-child(n + 26):nth-child(-n + 30) img { background-position-y: 50%; }
+.gallery-page figure:nth-child(n + 31):nth-child(-n + 35) img { background-position-y: 60%; }
+.gallery-page figure:nth-child(n + 36):nth-child(-n + 40) img { background-position-y: 70%; }
+.gallery-page figure:nth-child(n + 41):nth-child(-n + 45) img { background-position-y: 80%; }
+.gallery-page figure:nth-child(n + 46):nth-child(-n + 50) img { background-position-y: 90%; }
+.gallery-page figure:nth-child(n + 51):nth-child(-n + 55) img { background-position-y: 100%; }
