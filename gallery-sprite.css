@@ -21,3 +21,57 @@
 .gallery-page figure:nth-child(n + 41):nth-child(-n + 45) img { background-position-y: 80%; }
 .gallery-page figure:nth-child(n + 46):nth-child(-n + 50) img { background-position-y: 90%; }
 .gallery-page figure:nth-child(n + 51):nth-child(-n + 55) img { background-position-y: 100%; }
+
+/* Keep related project sequences together so before/after views sit side by side. */
+.gallery-page figure:nth-child(2) { order: 1; }
+.gallery-page figure:nth-child(3) { order: 2; }
+.gallery-page figure:nth-child(36) { order: 3; }
+.gallery-page figure:nth-child(37) { order: 4; }
+.gallery-page figure:nth-child(51) { order: 5; }
+.gallery-page figure:nth-child(52) { order: 6; }
+.gallery-page figure:nth-child(53) { order: 7; }
+.gallery-page figure:nth-child(4) { order: 8; }
+.gallery-page figure:nth-child(6) { order: 9; }
+.gallery-page figure:nth-child(11) { order: 10; }
+.gallery-page figure:nth-child(12) { order: 11; }
+.gallery-page figure:nth-child(13) { order: 12; }
+.gallery-page figure:nth-child(14) { order: 13; }
+.gallery-page figure:nth-child(15) { order: 14; }
+.gallery-page figure:nth-child(10) { order: 15; }
+.gallery-page figure:nth-child(9) { order: 16; }
+.gallery-page figure:nth-child(16) { order: 17; }
+.gallery-page figure:nth-child(31) { order: 18; }
+.gallery-page figure:nth-child(17) { order: 19; }
+.gallery-page figure:nth-child(18) { order: 20; }
+.gallery-page figure:nth-child(19) { order: 21; }
+.gallery-page figure:nth-child(21) { order: 22; }
+.gallery-page figure:nth-child(22) { order: 23; }
+.gallery-page figure:nth-child(26) { order: 24; }
+.gallery-page figure:nth-child(27) { order: 25; }
+.gallery-page figure:nth-child(25) { order: 26; }
+.gallery-page figure:nth-child(28) { order: 27; }
+.gallery-page figure:nth-child(30) { order: 28; }
+.gallery-page figure:nth-child(29) { order: 29; }
+.gallery-page figure:nth-child(33) { order: 30; }
+.gallery-page figure:nth-child(32) { order: 31; }
+.gallery-page figure:nth-child(38) { order: 32; }
+.gallery-page figure:nth-child(5) { order: 33; }
+.gallery-page figure:nth-child(7) { order: 34; }
+.gallery-page figure:nth-child(8) { order: 35; }
+.gallery-page figure:nth-child(20) { order: 36; }
+.gallery-page figure:nth-child(23) { order: 37; }
+.gallery-page figure:nth-child(24) { order: 38; }
+.gallery-page figure:nth-child(34) { order: 39; }
+.gallery-page figure:nth-child(35) { order: 40; }
+.gallery-page figure:nth-child(39) { order: 41; }
+.gallery-page figure:nth-child(40) { order: 42; }
+.gallery-page figure:nth-child(41) { order: 43; }
+.gallery-page figure:nth-child(42) { order: 44; }
+.gallery-page figure:nth-child(46) { order: 45; }
+.gallery-page figure:nth-child(47) { order: 46; }
+.gallery-page figure:nth-child(48) { order: 47; }
+.gallery-page figure:nth-child(43) { order: 48; }
+.gallery-page figure:nth-child(45) { order: 49; }
+.gallery-page figure:nth-child(44) { order: 50; }
+.gallery-page figure:nth-child(50) { order: 51; }
+.gallery-page figure:nth-child(49) { order: 52; }
